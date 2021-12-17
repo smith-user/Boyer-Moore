@@ -11,6 +11,8 @@ test('abcdabc', 'abccabcbbccabcdabcdabc').toBe(new Array(11, 15));
 
 test('abccdbccabcc', 'abccdbcccbccabccabcc').toBe(new Array());
 
+test('ab', 'abracadabra').toBe(new Array(0, 7));
+
 test('aaaa', 'abaaaaaabcaaa').toBe(new Array(2, 3, 4));
 
 			/* TestCases. */

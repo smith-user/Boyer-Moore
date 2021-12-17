@@ -2,5 +2,7 @@ Search 'abcdabc' in 'abccabcbbccabcdabcdabc':
 	Success! 11 15
 Search 'abccdbccabcc' in 'abccdbcccbccabccabcc':
 	Success! 
+Search 'ab' in 'abracadabra':
+	Success! 0 7
 Search 'aaaa' in 'abaaaaaabcaaa':
 	Success! 2 3 4

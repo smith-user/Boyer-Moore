@@ -15,10 +15,9 @@ String.prototype.algBoyerMooreSearching = function (substr) {
 		}
 		else {
 			i += Math.max( 
-				gs[j + 1], 								//shift2
-				( (bc[ data[i + j] ]) ? Math.max(j - bc[ data[i + j] ], 1) : j + 1 )  //shift1
+				gs[j + 1], 							    //shift2
+				( (bc[ data[i + j] ]) ? Math.max(j - bc[ data[i + j] ], 1) : j )  //shift1
 			);
-		
 		}
 	}
 	return result;	
